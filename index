@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script defer src="styles.js"></script>
+</head>
+<body>    
+    <div id="m_main-div">
+        <h1>Todo App</h1>
+        <label>
+            Ange Aktivitet
+            <input type="text" name="" id="m_task">
+        </label>
+        <label>
+            Prioritet
+            <select name="" id="m_priority">
+                <option value="Viktigt">Viktigt</option>
+                <option value="Normal">Normal</option>
+                <option value="Oviktigt">Oviktigt</option>
+            </select>
+        </label>
+        <label>
+            Vara klart när
+            <input type="date" name="" id="m_date">
+        </label>
+        <button onclick="addTask()">Lägg till</button>
+    </div>
+    
+    <div id="m_second-div">
+        <ul id="m_taskList">
+        </ul>
+    </div>
+</body>
+</html>
